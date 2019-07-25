@@ -19,7 +19,7 @@ public class FakeApiService implements ApiService {
      */
     @Override
     public List<User> getUsers() {
-      // TODO: A modifier
+      // TODO: done
         return users;
     }
 
@@ -31,7 +31,7 @@ public class FakeApiService implements ApiService {
     public void generateRandomUser() {
         users.add(User.random());
 
-        // TODO: A modifier
+        // TODO: done
     }
 
     /**
@@ -41,6 +41,6 @@ public class FakeApiService implements ApiService {
     public void deleteUser(User user) {
 
         users.remove(user);
-        // TODO: A modifier
+        // TODO: done
     }
 }
